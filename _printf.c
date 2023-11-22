@@ -40,7 +40,7 @@ int _printf(const char *format, ...)
 			p++;
 		if (!get_specifier(p))
 			sum += print_from_to(start,
-			p, params.1_modifier || params.h_modifer ? p -1 : 0);
+			p, params.1_modifier || params.h_modifer ? p - 1 : 0);
 		else
 			sum += get_print_func(p, ap, &params);
 	}

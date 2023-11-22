@@ -24,7 +24,7 @@ int print_from_to(char *start, char *stop, char *except)
 
 /**
  * print_rev - pritns string reversed
- * @p: string
+ * @ap: string
  * @params: the parameters structure
  *
  * Return: number of bytes printed
@@ -49,7 +49,7 @@ int print_rev(va_list ap, params_t *params)
 
 /**
  * print_rot13 - prints string in rot13
- * @p: string
+ * @ap: string
  * @params: the parameters structure
  *
  * Return: number of bytes printed

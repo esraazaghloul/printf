@@ -2,7 +2,7 @@
 
 /**
  * get_precision - gets th precision from format string
- * @p: format string
+ * @ap: format string
  * @params: parameters structure
  * @p: argument pointer
  *
